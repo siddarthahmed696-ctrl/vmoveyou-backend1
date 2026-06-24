@@ -1,14 +1,11 @@
 {
-  "name": "vmoveyou-backend",
-  "version": "2.0.0",
-  "description": "V Move You backend",
-  "main": "server.js",
-  "type": "commonjs",
+  "name": "vmoveyou",
+  "version": "1.0.0",
   "scripts": {
     "start": "node server.js",
-    "init-db": "node scripts/init-db.js",
-    "create-admin": "node scripts/create-admin.js"
-  },
+    "build": "echo 'No build needed'"
+  }
+}
   "engines": { "node": ">=18" },
   "dependencies": {
     "bcryptjs": "^2.4.3",
